@@ -1,0 +1,16 @@
+.banner {
+  height: 100vh;
+}
+
+.title-main {
+  color: $blue;
+  margin-top: 30px;
+  font-family: $lobster;
+  font-size: 50px;
+  text-shadow:
+  1px 1px 0 #DBDFFD,
+  2px 2px 0 #DBDFFD,
+  3px 3px 0 #DBDFFD,
+  4px 4px 0 #DBDFFD,
+  5px 5px 0 #DBDFFD;
+}

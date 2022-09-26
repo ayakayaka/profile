@@ -1,0 +1,131 @@
+// Specific CSS for your home-page
+
+body {
+  background-color: $gray;
+}
+
+#about {
+  h2 {
+    font-family: $lobster;
+    font-size: 50px;
+    color: $blue;
+    text-align: center;
+    text-shadow:
+    1px 1px 0 #DBDFFD,
+    2px 2px 0 #DBDFFD,
+    3px 3px 0 #DBDFFD,
+    4px 4px 0 #DBDFFD,
+    5px 5px 0 #DBDFFD;
+    margin-bottom: 40px;
+  }
+}
+
+#project-title {
+    font-size: 50px;
+    font-family: $lobster;
+    color: $blue;
+    text-align: center;
+    text-shadow:
+    1px 1px 0 #DBDFFD,
+    2px 2px 0 #DBDFFD,
+    3px 3px 0 #DBDFFD,
+    4px 4px 0 #DBDFFD,
+    5px 5px 0 #DBDFFD;
+    margin-bottom: 40px;
+}
+
+#project-name {
+  font-size: 20px;
+}
+
+#more {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: $blue;
+  font-family: $lobster;
+  font-size: 40px;
+  text-shadow:
+    1px 1px 0 #DBDFFD,
+    2px 2px 0 #DBDFFD,
+    3px 3px 0 #DBDFFD,
+    4px 4px 0 #DBDFFD,
+    5px 5px 0 #DBDFFD;
+    text-align: center;
+}
+
+// smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    .card-product {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+
+    .card-product img {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+
+   #contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .avatar-large {
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .avatar-large {
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-main {
+    text-align: center;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-product {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+  }
+
+  .card-product img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-product {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .card-product img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}

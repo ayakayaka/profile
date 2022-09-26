@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "type": "module",
+    "typed.js": "^2.0.12",
+    "typeit-react": "^2.6.0"
+  }
+}

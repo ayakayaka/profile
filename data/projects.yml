@@ -1,0 +1,19 @@
+- name: ToFuture
+  description: A website that provides information about SDGs and stocks that are environmentally friendly. I add "favorite function" so that user can pick and list the stock which user liked it. I also added the comparison function so that user can compare stocks. I styled them as well😉 (https://www.tofuture.co/compare_products ⏪this link will take you to the compare products page easily.)
+  image: images/project_no2.png
+  url: "https://www.tofuture.co/"
+
+- name: Tokyo Vinyl
+  description: An app that you can search vinyls, and rent it. You will also know the location where you can rent the vinyl. I insert the map and styled it.
+  image: images/project_no1.png
+  url: "https://tokyo-vinyls.herokuapp.com/"
+
+# - name: Airbnb
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
+
+# - name: Final project
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
